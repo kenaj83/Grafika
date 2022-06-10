@@ -72,8 +72,7 @@
 		        gl2.glRotatef(rotateZ,0,0,1);   // Apply rotations to complete object.
 		        gl2.glRotatef(rotateY,0,1,0);
 		        gl2.glRotatef(rotateX,1,0,0);
-		       // gl2.glPointSize(punkt);
-		        //gl2.glEnable()
+		   
 		        
 		   
 
@@ -90,6 +89,7 @@
 		        }
 
 		    }
+//######################## SPIRALA ##########################################################################################################
 
 		    public void Spirala(GL2 gl2,int radius, int numberOfTurns){
 		        gl2.glClear(GL2.GL_COLOR_BUFFER_BIT);
@@ -124,7 +124,7 @@
 		       
 		    }
 
-// ##################################################################################################################################3
+// ###########################################################################################################################################
 		    public void Triangle(GL2 gl2){
 		        gl2.glBegin(  GL2.GL_TRIANGLES );
 		        gl2.glColor3f(0,255,255);//( 0.0f, 0.0f, 1.0f ); // Cyan
