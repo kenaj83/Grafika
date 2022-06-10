@@ -95,13 +95,13 @@
 		        gl2.glClear(GL2.GL_COLOR_BUFFER_BIT);
 		        int numVertices = numberOfTurns*80;
 		        double angleIncrement = numberOfTurns * Math.PI / numVertices;
-		        float height=-8;
+		        float height=-5;
 		        float punkt = 1;
 		        
 		        
 		        
 		        
-		        for (int i = 1; i <= 1000; i++) {
+		        for (int i = 1; i <=450; i++) {
 		        	gl2.glPointSize(punkt);
 		        	 gl2.glBegin(GL2.GL_POINTS);
 		        	 
@@ -115,7 +115,7 @@
 		            height+=1f/40f;                           //numberOfTurns/500f;
 		            gl2.glEnd();
 		            
-		            punkt+=0.005f;
+		            punkt+=0.020f;
 		           
 		        }
 		       
@@ -124,7 +124,7 @@
 		       
 		    }
 
-// ###########################################################################################################################################
+// ################################################# Trójk¹t o podstawie dziewiêcioboku ##########################################################################################
 		    public void Triangle(GL2 gl2){
 		        gl2.glBegin(  GL2.GL_TRIANGLES );
 		        gl2.glColor3f(0,255,255);//( 0.0f, 0.0f, 1.0f ); // Cyan
